@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Catch The Characters</title>
+    </head>
+    <body>
+        <div class="screen">
+            <h1>Catch The Characters</h1>
+            <button class="btn" id="start-btn">Play Game</button>
+        </div>
+
+        <div class="screen">
+            <h1>What is your "favorite" character ?</h1>
+            <ul class="characters-list">
+                <li>
+                    <button class="choose-character-btn">
+                        <p>Michael Scott</p>
+                        <img src="image/Michael-Scott.png" alt="Michael Scott">
+                    </button>
+                </li>
+                <li>
+                    <button class="choose-character-btn">
+                        <p>Kevin Malone</p>
+                        <img src="image/kevin-malone.png" alt="Michael Scott">
+                    </button>
+                </li>
+                <li>
+                    <button class="choose-character-btn">
+                        <p>Dwight Schrute</p>
+                        <img src="image/dwight-schrute.png" alt="Michael Scott">
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="screen game-container" id="game-container">
+            <h3 id="time" class="time">Time: 00:00</h3>
+            <h3 id="Score" class="score">Score: 0</h3>
+            <h5 id="message" class="message">Are you annoyed yet?<br>You are playing an impossible game!!</h5>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
